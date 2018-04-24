@@ -1,0 +1,2312 @@
+{
+  "1": {
+    "en_name": "Bulbasaur",
+    "base_atk": 118,
+    "base_def": 118,
+    "base_sta": 90
+  },
+  "2": {
+    "en_name": "Ivysaur",
+    "base_atk": 151,
+    "base_def": 151,
+    "base_sta": 120
+  },
+  "3": {
+    "en_name": "Venusaur",
+    "base_atk": 198,
+    "base_def": 198,
+    "base_sta": 160
+  },
+  "4": {
+    "en_name": "Charmander",
+    "base_atk": 116,
+    "base_def": 96,
+    "base_sta": 78
+  },
+  "5": {
+    "en_name": "Charmeleon",
+    "base_atk": 158,
+    "base_def": 129,
+    "base_sta": 116
+  },
+  "6": {
+    "en_name": "Charizard",
+    "base_atk": 223,
+    "base_def": 176,
+    "base_sta": 156
+  },
+  "7": {
+    "en_name": "Squirtle",
+    "base_atk": 94,
+    "base_def": 122,
+    "base_sta": 88
+  },
+  "8": {
+    "en_name": "Wartortle",
+    "base_atk": 126,
+    "base_def": 155,
+    "base_sta": 118
+  },
+  "9": {
+    "en_name": "Blastoise",
+    "base_atk": 171,
+    "base_def": 210,
+    "base_sta": 158
+  },
+  "10": {
+    "en_name": "Caterpie",
+    "base_atk": 55,
+    "base_def": 62,
+    "base_sta": 90
+  },
+  "11": {
+    "en_name": "Metapod",
+    "base_atk": 45,
+    "base_def": 94,
+    "base_sta": 100
+  },
+  "12": {
+    "en_name": "Butterfree",
+    "base_atk": 167,
+    "base_def": 151,
+    "base_sta": 120
+  },
+  "13": {
+    "en_name": "Weedle",
+    "base_atk": 63,
+    "base_def": 55,
+    "base_sta": 80
+  },
+  "14": {
+    "en_name": "Kakuna",
+    "base_atk": 46,
+    "base_def": 86,
+    "base_sta": 90
+  },
+  "15": {
+    "en_name": "Beedrill",
+    "base_atk": 169,
+    "base_def": 150,
+    "base_sta": 130
+  },
+  "16": {
+    "en_name": "Pidgey",
+    "base_atk": 85,
+    "base_def": 76,
+    "base_sta": 80
+  },
+  "17": {
+    "en_name": "Pidgeotto",
+    "base_atk": 117,
+    "base_def": 108,
+    "base_sta": 126
+  },
+  "18": {
+    "en_name": "Pidgeot",
+    "base_atk": 166,
+    "base_def": 157,
+    "base_sta": 166
+  },
+  "19": {
+    "en_name": "Rattata",
+    "base_atk": 103,
+    "base_def": 70,
+    "base_sta": 60
+  },
+  "20": {
+    "en_name": "Raticate",
+    "base_atk": 161,
+    "base_def": 144,
+    "base_sta": 110
+  },
+  "21": {
+    "en_name": "Spearow",
+    "base_atk": 112,
+    "base_def": 61,
+    "base_sta": 80
+  },
+  "22": {
+    "en_name": "Fearow",
+    "base_atk": 182,
+    "base_def": 135,
+    "base_sta": 130
+  },
+  "23": {
+    "en_name": "Ekans",
+    "base_atk": 110,
+    "base_def": 102,
+    "base_sta": 70
+  },
+  "24": {
+    "en_name": "Arbok",
+    "base_atk": 167,
+    "base_def": 158,
+    "base_sta": 120
+  },
+  "25": {
+    "en_name": "Pikachu",
+    "base_atk": 112,
+    "base_def": 101,
+    "base_sta": 70
+  },
+  "26": {
+    "en_name": "Raichu",
+    "base_atk": 193,
+    "base_def": 165,
+    "base_sta": 120
+  },
+  "27": {
+    "en_name": "Sandshrew",
+    "base_atk": 126,
+    "base_def": 145,
+    "base_sta": 100
+  },
+  "28": {
+    "en_name": "Sandslash",
+    "base_atk": 182,
+    "base_def": 202,
+    "base_sta": 150
+  },
+  "29": {
+    "en_name": "Nidoran?",
+    "base_atk": 86,
+    "base_def": 94,
+    "base_sta": 110
+  },
+  "30": {
+    "en_name": "Nidorina",
+    "base_atk": 117,
+    "base_def": 126,
+    "base_sta": 140
+  },
+  "31": {
+    "en_name": "Nidoqueen",
+    "base_atk": 180,
+    "base_def": 174,
+    "base_sta": 180
+  },
+  "32": {
+    "en_name": "Nidoran?",
+    "base_atk": 105,
+    "base_def": 76,
+    "base_sta": 92
+  },
+  "33": {
+    "en_name": "Nidorino",
+    "base_atk": 137,
+    "base_def": 112,
+    "base_sta": 122
+  },
+  "34": {
+    "en_name": "Nidoking",
+    "base_atk": 204,
+    "base_def": 157,
+    "base_sta": 162
+  },
+  "35": {
+    "en_name": "Clefairy",
+    "base_atk": 107,
+    "base_def": 116,
+    "base_sta": 140
+  },
+  "36": {
+    "en_name": "Clefable",
+    "base_atk": 178,
+    "base_def": 171,
+    "base_sta": 190
+  },
+  "37": {
+    "en_name": "Vulpix",
+    "base_atk": 96,
+    "base_def": 122,
+    "base_sta": 76
+  },
+  "38": {
+    "en_name": "Ninetales",
+    "base_atk": 169,
+    "base_def": 204,
+    "base_sta": 146
+  },
+  "39": {
+    "en_name": "Jigglypuff",
+    "base_atk": 80,
+    "base_def": 44,
+    "base_sta": 230
+  },
+  "40": {
+    "en_name": "Wigglytuff",
+    "base_atk": 156,
+    "base_def": 93,
+    "base_sta": 280
+  },
+  "41": {
+    "en_name": "Zubat",
+    "base_atk": 83,
+    "base_def": 76,
+    "base_sta": 80
+  },
+  "42": {
+    "en_name": "Golbat",
+    "base_atk": 161,
+    "base_def": 153,
+    "base_sta": 150
+  },
+  "43": {
+    "en_name": "Oddish",
+    "base_atk": 131,
+    "base_def": 116,
+    "base_sta": 90
+  },
+  "44": {
+    "en_name": "Gloom",
+    "base_atk": 153,
+    "base_def": 139,
+    "base_sta": 120
+  },
+  "45": {
+    "en_name": "Vileplume",
+    "base_atk": 202,
+    "base_def": 170,
+    "base_sta": 150
+  },
+  "46": {
+    "en_name": "Paras",
+    "base_atk": 121,
+    "base_def": 99,
+    "base_sta": 70
+  },
+  "47": {
+    "en_name": "Parasect",
+    "base_atk": 165,
+    "base_def": 146,
+    "base_sta": 120
+  },
+  "48": {
+    "en_name": "Venonat",
+    "base_atk": 100,
+    "base_def": 102,
+    "base_sta": 120
+  },
+  "49": {
+    "en_name": "Venomoth",
+    "base_atk": 179,
+    "base_def": 150,
+    "base_sta": 140
+  },
+  "50": {
+    "en_name": "Diglett",
+    "base_atk": 109,
+    "base_def": 88,
+    "base_sta": 20
+  },
+  "51": {
+    "en_name": "Dugtrio",
+    "base_atk": 167,
+    "base_def": 147,
+    "base_sta": 70
+  },
+  "52": {
+    "en_name": "Meowth",
+    "base_atk": 92,
+    "base_def": 81,
+    "base_sta": 80
+  },
+  "53": {
+    "en_name": "Persian",
+    "base_atk": 150,
+    "base_def": 139,
+    "base_sta": 130
+  },
+  "54": {
+    "en_name": "Psyduck",
+    "base_atk": 122,
+    "base_def": 96,
+    "base_sta": 100
+  },
+  "55": {
+    "en_name": "Golduck",
+    "base_atk": 191,
+    "base_def": 163,
+    "base_sta": 160
+  },
+  "56": {
+    "en_name": "Mankey",
+    "base_atk": 148,
+    "base_def": 87,
+    "base_sta": 80
+  },
+  "57": {
+    "en_name": "Primeape",
+    "base_atk": 207,
+    "base_def": 144,
+    "base_sta": 130
+  },
+  "58": {
+    "en_name": "Growlithe",
+    "base_atk": 136,
+    "base_def": 96,
+    "base_sta": 110
+  },
+  "59": {
+    "en_name": "Arcanine",
+    "base_atk": 227,
+    "base_def": 166,
+    "base_sta": 180
+  },
+  "60": {
+    "en_name": "Poliwag",
+    "base_atk": 101,
+    "base_def": 82,
+    "base_sta": 80
+  },
+  "61": {
+    "en_name": "Poliwhirl",
+    "base_atk": 130,
+    "base_def": 130,
+    "base_sta": 130
+  },
+  "62": {
+    "en_name": "Poliwrath",
+    "base_atk": 182,
+    "base_def": 187,
+    "base_sta": 180
+  },
+  "63": {
+    "en_name": "Abra",
+    "base_atk": 195,
+    "base_def": 103,
+    "base_sta": 50
+  },
+  "64": {
+    "en_name": "Kadabra",
+    "base_atk": 232,
+    "base_def": 138,
+    "base_sta": 80
+  },
+  "65": {
+    "en_name": "Alakazam",
+    "base_atk": 271,
+    "base_def": 194,
+    "base_sta": 110
+  },
+  "66": {
+    "en_name": "Machop",
+    "base_atk": 137,
+    "base_def": 88,
+    "base_sta": 140
+  },
+  "67": {
+    "en_name": "Machoke",
+    "base_atk": 177,
+    "base_def": 130,
+    "base_sta": 160
+  },
+  "68": {
+    "en_name": "Machamp",
+    "base_atk": 234,
+    "base_def": 162,
+    "base_sta": 180
+  },
+  "69": {
+    "en_name": "Bellsprout",
+    "base_atk": 139,
+    "base_def": 64,
+    "base_sta": 100
+  },
+  "70": {
+    "en_name": "Weepinbell",
+    "base_atk": 172,
+    "base_def": 95,
+    "base_sta": 130
+  },
+  "71": {
+    "en_name": "Victreebel",
+    "base_atk": 207,
+    "base_def": 138,
+    "base_sta": 160
+  },
+  "72": {
+    "en_name": "Tentacool",
+    "base_atk": 97,
+    "base_def": 182,
+    "base_sta": 80
+  },
+  "73": {
+    "en_name": "Tentacruel",
+    "base_atk": 166,
+    "base_def": 237,
+    "base_sta": 160
+  },
+  "74": {
+    "en_name": "Geodude",
+    "base_atk": 132,
+    "base_def": 163,
+    "base_sta": 80
+  },
+  "75": {
+    "en_name": "Graveler",
+    "base_atk": 164,
+    "base_def": 196,
+    "base_sta": 110
+  },
+  "76": {
+    "en_name": "Golem",
+    "base_atk": 211,
+    "base_def": 229,
+    "base_sta": 160
+  },
+  "77": {
+    "en_name": "Ponyta",
+    "base_atk": 170,
+    "base_def": 132,
+    "base_sta": 100
+  },
+  "78": {
+    "en_name": "Rapidash",
+    "base_atk": 207,
+    "base_def": 167,
+    "base_sta": 130
+  },
+  "79": {
+    "en_name": "Slowpoke",
+    "base_atk": 109,
+    "base_def": 109,
+    "base_sta": 180
+  },
+  "80": {
+    "en_name": "Slowbro",
+    "base_atk": 177,
+    "base_def": 194,
+    "base_sta": 190
+  },
+  "81": {
+    "en_name": "Magnemite",
+    "base_atk": 165,
+    "base_def": 128,
+    "base_sta": 50
+  },
+  "82": {
+    "en_name": "Magneton",
+    "base_atk": 223,
+    "base_def": 182,
+    "base_sta": 100
+  },
+  "83": {
+    "en_name": "Farfetch'd",
+    "base_atk": 124,
+    "base_def": 118,
+    "base_sta": 104
+  },
+  "84": {
+    "en_name": "Doduo",
+    "base_atk": 158,
+    "base_def": 88,
+    "base_sta": 70
+  },
+  "85": {
+    "en_name": "Dodrio",
+    "base_atk": 218,
+    "base_def": 145,
+    "base_sta": 120
+  },
+  "86": {
+    "en_name": "Seel",
+    "base_atk": 85,
+    "base_def": 128,
+    "base_sta": 130
+  },
+  "87": {
+    "en_name": "Dewgong",
+    "base_atk": 139,
+    "base_def": 184,
+    "base_sta": 180
+  },
+  "88": {
+    "en_name": "Grimer",
+    "base_atk": 135,
+    "base_def": 90,
+    "base_sta": 160
+  },
+  "89": {
+    "en_name": "Muk",
+    "base_atk": 190,
+    "base_def": 184,
+    "base_sta": 210
+  },
+  "90": {
+    "en_name": "Shellder",
+    "base_atk": 116,
+    "base_def": 168,
+    "base_sta": 60
+  },
+  "91": {
+    "en_name": "Cloyster",
+    "base_atk": 186,
+    "base_def": 323,
+    "base_sta": 100
+  },
+  "92": {
+    "en_name": "Gastly",
+    "base_atk": 186,
+    "base_def": 70,
+    "base_sta": 60
+  },
+  "93": {
+    "en_name": "Haunter",
+    "base_atk": 223,
+    "base_def": 112,
+    "base_sta": 90
+  },
+  "94": {
+    "en_name": "Gengar",
+    "base_atk": 261,
+    "base_def": 156,
+    "base_sta": 120
+  },
+  "95": {
+    "en_name": "Onix",
+    "base_atk": 85,
+    "base_def": 288,
+    "base_sta": 70
+  },
+  "96": {
+    "en_name": "Drowzee",
+    "base_atk": 89,
+    "base_def": 158,
+    "base_sta": 120
+  },
+  "97": {
+    "en_name": "Hypno",
+    "base_atk": 144,
+    "base_def": 215,
+    "base_sta": 170
+  },
+  "98": {
+    "en_name": "Krabby",
+    "base_atk": 181,
+    "base_def": 156,
+    "base_sta": 60
+  },
+  "99": {
+    "en_name": "Kingler",
+    "base_atk": 240,
+    "base_def": 214,
+    "base_sta": 110
+  },
+  "100": {
+    "en_name": "Voltorb",
+    "base_atk": 109,
+    "base_def": 114,
+    "base_sta": 80
+  },
+  "101": {
+    "en_name": "Electrode",
+    "base_atk": 173,
+    "base_def": 179,
+    "base_sta": 120
+  },
+  "102": {
+    "en_name": "Exeggcute",
+    "base_atk": 107,
+    "base_def": 140,
+    "base_sta": 120
+  },
+  "103": {
+    "en_name": "Exeggutor",
+    "base_atk": 233,
+    "base_def": 158,
+    "base_sta": 190
+  },
+  "104": {
+    "en_name": "Cubone",
+    "base_atk": 90,
+    "base_def": 165,
+    "base_sta": 100
+  },
+  "105": {
+    "en_name": "Marowak",
+    "base_atk": 144,
+    "base_def": 200,
+    "base_sta": 120
+  },
+  "106": {
+    "en_name": "Hitmonlee",
+    "base_atk": 224,
+    "base_def": 211,
+    "base_sta": 100
+  },
+  "107": {
+    "en_name": "Hitmonchan",
+    "base_atk": 193,
+    "base_def": 212,
+    "base_sta": 100
+  },
+  "108": {
+    "en_name": "Lickitung",
+    "base_atk": 108,
+    "base_def": 137,
+    "base_sta": 180
+  },
+  "109": {
+    "en_name": "Koffing",
+    "base_atk": 119,
+    "base_def": 164,
+    "base_sta": 80
+  },
+  "110": {
+    "en_name": "Weezing",
+    "base_atk": 174,
+    "base_def": 221,
+    "base_sta": 130
+  },
+  "111": {
+    "en_name": "Rhyhorn",
+    "base_atk": 140,
+    "base_def": 157,
+    "base_sta": 160
+  },
+  "112": {
+    "en_name": "Rhydon",
+    "base_atk": 222,
+    "base_def": 206,
+    "base_sta": 210
+  },
+  "113": {
+    "en_name": "Chansey",
+    "base_atk": 60,
+    "base_def": 176,
+    "base_sta": 500
+  },
+  "114": {
+    "en_name": "Tangela",
+    "base_atk": 183,
+    "base_def": 205,
+    "base_sta": 130
+  },
+  "115": {
+    "en_name": "Kangaskhan",
+    "base_atk": 181,
+    "base_def": 165,
+    "base_sta": 210
+  },
+  "116": {
+    "en_name": "Horsea",
+    "base_atk": 129,
+    "base_def": 125,
+    "base_sta": 60
+  },
+  "117": {
+    "en_name": "Seadra",
+    "base_atk": 187,
+    "base_def": 182,
+    "base_sta": 110
+  },
+  "118": {
+    "en_name": "Goldeen",
+    "base_atk": 123,
+    "base_def": 115,
+    "base_sta": 90
+  },
+  "119": {
+    "en_name": "Seaking",
+    "base_atk": 175,
+    "base_def": 154,
+    "base_sta": 160
+  },
+  "120": {
+    "en_name": "Staryu",
+    "base_atk": 137,
+    "base_def": 112,
+    "base_sta": 60
+  },
+  "121": {
+    "en_name": "Starmie",
+    "base_atk": 210,
+    "base_def": 184,
+    "base_sta": 120
+  },
+  "122": {
+    "en_name": "Mr. Mime",
+    "base_atk": 192,
+    "base_def": 233,
+    "base_sta": 80
+  },
+  "123": {
+    "en_name": "Scyther",
+    "base_atk": 218,
+    "base_def": 170,
+    "base_sta": 140
+  },
+  "124": {
+    "en_name": "Jynx",
+    "base_atk": 223,
+    "base_def": 182,
+    "base_sta": 130
+  },
+  "125": {
+    "en_name": "Electabuzz",
+    "base_atk": 198,
+    "base_def": 173,
+    "base_sta": 130
+  },
+  "126": {
+    "en_name": "Magmar",
+    "base_atk": 206,
+    "base_def": 169,
+    "base_sta": 130
+  },
+  "127": {
+    "en_name": "Pinsir",
+    "base_atk": 238,
+    "base_def": 197,
+    "base_sta": 130
+  },
+  "128": {
+    "en_name": "Tauros",
+    "base_atk": 198,
+    "base_def": 197,
+    "base_sta": 150
+  },
+  "129": {
+    "en_name": "Magikarp",
+    "base_atk": 29,
+    "base_def": 102,
+    "base_sta": 40
+  },
+  "130": {
+    "en_name": "Gyarados",
+    "base_atk": 237,
+    "base_def": 197,
+    "base_sta": 190
+  },
+  "131": {
+    "en_name": "Lapras",
+    "base_atk": 165,
+    "base_def": 180,
+    "base_sta": 260
+  },
+  "132": {
+    "en_name": "Ditto",
+    "base_atk": 91,
+    "base_def": 91,
+    "base_sta": 96
+  },
+  "133": {
+    "en_name": "Eevee",
+    "base_atk": 104,
+    "base_def": 121,
+    "base_sta": 110
+  },
+  "134": {
+    "en_name": "Vaporeon",
+    "base_atk": 205,
+    "base_def": 177,
+    "base_sta": 260
+  },
+  "135": {
+    "en_name": "Jolteon",
+    "base_atk": 232,
+    "base_def": 201,
+    "base_sta": 130
+  },
+  "136": {
+    "en_name": "Flareon",
+    "base_atk": 246,
+    "base_def": 204,
+    "base_sta": 130
+  },
+  "137": {
+    "en_name": "Porygon",
+    "base_atk": 153,
+    "base_def": 139,
+    "base_sta": 130
+  },
+  "138": {
+    "en_name": "Omanyte",
+    "base_atk": 155,
+    "base_def": 174,
+    "base_sta": 70
+  },
+  "139": {
+    "en_name": "Omastar",
+    "base_atk": 207,
+    "base_def": 227,
+    "base_sta": 140
+  },
+  "140": {
+    "en_name": "Kabuto",
+    "base_atk": 148,
+    "base_def": 162,
+    "base_sta": 60
+  },
+  "141": {
+    "en_name": "Kabutops",
+    "base_atk": 220,
+    "base_def": 203,
+    "base_sta": 120
+  },
+  "142": {
+    "en_name": "Aerodactyl",
+    "base_atk": 221,
+    "base_def": 164,
+    "base_sta": 160
+  },
+  "143": {
+    "en_name": "Snorlax",
+    "base_atk": 190,
+    "base_def": 190,
+    "base_sta": 320
+  },
+  "144": {
+    "en_name": "Articuno",
+    "base_atk": 192,
+    "base_def": 249,
+    "base_sta": 180
+  },
+  "145": {
+    "en_name": "Zapdos",
+    "base_atk": 253,
+    "base_def": 188,
+    "base_sta": 180
+  },
+  "146": {
+    "en_name": "Moltres",
+    "base_atk": 251,
+    "base_def": 184,
+    "base_sta": 180
+  },
+  "147": {
+    "en_name": "Dratini",
+    "base_atk": 119,
+    "base_def": 94,
+    "base_sta": 82
+  },
+  "148": {
+    "en_name": "Dragonair",
+    "base_atk": 163,
+    "base_def": 138,
+    "base_sta": 122
+  },
+  "149": {
+    "en_name": "Dragonite",
+    "base_atk": 263,
+    "base_def": 201,
+    "base_sta": 182
+  },
+  "150": {
+    "en_name": "Mewtwo",
+    "base_atk": 330,
+    "base_def": 200,
+    "base_sta": 212
+  },
+  "151": {
+    "en_name": "Mew",
+    "base_atk": 210,
+    "base_def": 210,
+    "base_sta": 200
+  },
+  "152": {
+    "en_name": "Chikorita",
+    "base_atk": 92,
+    "base_def": 122,
+    "base_sta": 90
+  },
+  "153": {
+    "en_name": "Bayleef",
+    "base_atk": 122,
+    "base_def": 155,
+    "base_sta": 120
+  },
+  "154": {
+    "en_name": "Meganium",
+    "base_atk": 168,
+    "base_def": 202,
+    "base_sta": 160
+  },
+  "155": {
+    "en_name": "Cyndaquil",
+    "base_atk": 116,
+    "base_def": 96,
+    "base_sta": 78
+  },
+  "156": {
+    "en_name": "Quilava",
+    "base_atk": 158,
+    "base_def": 129,
+    "base_sta": 116
+  },
+  "157": {
+    "en_name": "Typhlosion",
+    "base_atk": 223,
+    "base_def": 176,
+    "base_sta": 156
+  },
+  "158": {
+    "en_name": "Totodile",
+    "base_atk": 117,
+    "base_def": 116,
+    "base_sta": 100
+  },
+  "159": {
+    "en_name": "Croconaw",
+    "base_atk": 150,
+    "base_def": 151,
+    "base_sta": 130
+  },
+  "160": {
+    "en_name": "Feraligatr",
+    "base_atk": 205,
+    "base_def": 197,
+    "base_sta": 170
+  },
+  "161": {
+    "en_name": "Sentret",
+    "base_atk": 79,
+    "base_def": 77,
+    "base_sta": 70
+  },
+  "162": {
+    "en_name": "Furret",
+    "base_atk": 148,
+    "base_def": 130,
+    "base_sta": 170
+  },
+  "163": {
+    "en_name": "Hoothoot",
+    "base_atk": 67,
+    "base_def": 101,
+    "base_sta": 120
+  },
+  "164": {
+    "en_name": "Noctowl",
+    "base_atk": 145,
+    "base_def": 179,
+    "base_sta": 200
+  },
+  "165": {
+    "en_name": "Ledyba",
+    "base_atk": 72,
+    "base_def": 142,
+    "base_sta": 80
+  },
+  "166": {
+    "en_name": "Ledian",
+    "base_atk": 107,
+    "base_def": 209,
+    "base_sta": 110
+  },
+  "167": {
+    "en_name": "Spinarak",
+    "base_atk": 105,
+    "base_def": 73,
+    "base_sta": 80
+  },
+  "168": {
+    "en_name": "Ariados",
+    "base_atk": 161,
+    "base_def": 128,
+    "base_sta": 140
+  },
+  "169": {
+    "en_name": "Crobat",
+    "base_atk": 194,
+    "base_def": 178,
+    "base_sta": 170
+  },
+  "170": {
+    "en_name": "Chinchou",
+    "base_atk": 106,
+    "base_def": 106,
+    "base_sta": 150
+  },
+  "171": {
+    "en_name": "Lanturn",
+    "base_atk": 146,
+    "base_def": 146,
+    "base_sta": 250
+  },
+  "172": {
+    "en_name": "Pichu",
+    "base_atk": 77,
+    "base_def": 63,
+    "base_sta": 40
+  },
+  "173": {
+    "en_name": "Cleffa",
+    "base_atk": 75,
+    "base_def": 91,
+    "base_sta": 100
+  },
+  "174": {
+    "en_name": "Igglybuff",
+    "base_atk": 69,
+    "base_def": 34,
+    "base_sta": 180
+  },
+  "175": {
+    "en_name": "Togepi",
+    "base_atk": 67,
+    "base_def": 116,
+    "base_sta": 70
+  },
+  "176": {
+    "en_name": "Togetic",
+    "base_atk": 139,
+    "base_def": 191,
+    "base_sta": 110
+  },
+  "177": {
+    "en_name": "Natu",
+    "base_atk": 134,
+    "base_def": 89,
+    "base_sta": 80
+  },
+  "178": {
+    "en_name": "Xatu",
+    "base_atk": 192,
+    "base_def": 146,
+    "base_sta": 130
+  },
+  "179": {
+    "en_name": "Mareep",
+    "base_atk": 114,
+    "base_def": 82,
+    "base_sta": 110
+  },
+  "180": {
+    "en_name": "Flaaffy",
+    "base_atk": 145,
+    "base_def": 112,
+    "base_sta": 140
+  },
+  "181": {
+    "en_name": "Ampharos",
+    "base_atk": 211,
+    "base_def": 172,
+    "base_sta": 180
+  },
+  "182": {
+    "en_name": "Bellossom",
+    "base_atk": 169,
+    "base_def": 189,
+    "base_sta": 150
+  },
+  "183": {
+    "en_name": "Marill",
+    "base_atk": 37,
+    "base_def": 93,
+    "base_sta": 140
+  },
+  "184": {
+    "en_name": "Azumarill",
+    "base_atk": 112,
+    "base_def": 152,
+    "base_sta": 200
+  },
+  "185": {
+    "en_name": "Sudowoodo",
+    "base_atk": 167,
+    "base_def": 198,
+    "base_sta": 140
+  },
+  "186": {
+    "en_name": "Politoed",
+    "base_atk": 174,
+    "base_def": 192,
+    "base_sta": 180
+  },
+  "187": {
+    "en_name": "Hoppip",
+    "base_atk": 67,
+    "base_def": 101,
+    "base_sta": 70
+  },
+  "188": {
+    "en_name": "Skiploom",
+    "base_atk": 91,
+    "base_def": 127,
+    "base_sta": 110
+  },
+  "189": {
+    "en_name": "Jumpluff",
+    "base_atk": 118,
+    "base_def": 197,
+    "base_sta": 150
+  },
+  "190": {
+    "en_name": "Aipom",
+    "base_atk": 136,
+    "base_def": 112,
+    "base_sta": 110
+  },
+  "191": {
+    "en_name": "Sunkern",
+    "base_atk": 55,
+    "base_def": 55,
+    "base_sta": 60
+  },
+  "192": {
+    "en_name": "Sunflora",
+    "base_atk": 185,
+    "base_def": 148,
+    "base_sta": 150
+  },
+  "193": {
+    "en_name": "Yanma",
+    "base_atk": 154,
+    "base_def": 94,
+    "base_sta": 130
+  },
+  "194": {
+    "en_name": "Wooper",
+    "base_atk": 75,
+    "base_def": 75,
+    "base_sta": 110
+  },
+  "195": {
+    "en_name": "Quagsire",
+    "base_atk": 152,
+    "base_def": 152,
+    "base_sta": 190
+  },
+  "196": {
+    "en_name": "Espeon",
+    "base_atk": 261,
+    "base_def": 194,
+    "base_sta": 130
+  },
+  "197": {
+    "en_name": "Umbreon",
+    "base_atk": 126,
+    "base_def": 250,
+    "base_sta": 190
+  },
+  "198": {
+    "en_name": "Murkrow",
+    "base_atk": 175,
+    "base_def": 87,
+    "base_sta": 120
+  },
+  "199": {
+    "en_name": "Slowking",
+    "base_atk": 177,
+    "base_def": 194,
+    "base_sta": 190
+  },
+  "200": {
+    "en_name": "Misdreavus",
+    "base_atk": 167,
+    "base_def": 167,
+    "base_sta": 120
+  },
+  "201": {
+    "en_name": "Unown",
+    "base_atk": 136,
+    "base_def": 91,
+    "base_sta": 96
+  },
+  "202": {
+    "en_name": "Wobbuffet",
+    "base_atk": 60,
+    "base_def": 106,
+    "base_sta": 380
+  },
+  "203": {
+    "en_name": "Girafarig",
+    "base_atk": 182,
+    "base_def": 133,
+    "base_sta": 140
+  },
+  "204": {
+    "en_name": "Pineco",
+    "base_atk": 108,
+    "base_def": 146,
+    "base_sta": 100
+  },
+  "205": {
+    "en_name": "Forretress",
+    "base_atk": 161,
+    "base_def": 242,
+    "base_sta": 150
+  },
+  "206": {
+    "en_name": "Dunsparce",
+    "base_atk": 131,
+    "base_def": 131,
+    "base_sta": 200
+  },
+  "207": {
+    "en_name": "Gligar",
+    "base_atk": 143,
+    "base_def": 204,
+    "base_sta": 130
+  },
+  "208": {
+    "en_name": "Steelix",
+    "base_atk": 148,
+    "base_def": 333,
+    "base_sta": 150
+  },
+  "209": {
+    "en_name": "Snubbull",
+    "base_atk": 137,
+    "base_def": 89,
+    "base_sta": 120
+  },
+  "210": {
+    "en_name": "Granbull",
+    "base_atk": 212,
+    "base_def": 137,
+    "base_sta": 180
+  },
+  "211": {
+    "en_name": "Qwilfish",
+    "base_atk": 184,
+    "base_def": 148,
+    "base_sta": 130
+  },
+  "212": {
+    "en_name": "Scizor",
+    "base_atk": 236,
+    "base_def": 191,
+    "base_sta": 140
+  },
+  "213": {
+    "en_name": "Shuckle",
+    "base_atk": 17,
+    "base_def": 396,
+    "base_sta": 40
+  },
+  "214": {
+    "en_name": "Heracross",
+    "base_atk": 234,
+    "base_def": 189,
+    "base_sta": 160
+  },
+  "215": {
+    "en_name": "Sneasel",
+    "base_atk": 189,
+    "base_def": 157,
+    "base_sta": 110
+  },
+  "216": {
+    "en_name": "Teddiursa",
+    "base_atk": 142,
+    "base_def": 93,
+    "base_sta": 120
+  },
+  "217": {
+    "en_name": "Ursaring",
+    "base_atk": 236,
+    "base_def": 144,
+    "base_sta": 180
+  },
+  "218": {
+    "en_name": "Slugma",
+    "base_atk": 118,
+    "base_def": 71,
+    "base_sta": 80
+  },
+  "219": {
+    "en_name": "Magcargo",
+    "base_atk": 139,
+    "base_def": 209,
+    "base_sta": 100
+  },
+  "220": {
+    "en_name": "Swinub",
+    "base_atk": 90,
+    "base_def": 74,
+    "base_sta": 100
+  },
+  "221": {
+    "en_name": "Piloswine",
+    "base_atk": 181,
+    "base_def": 147,
+    "base_sta": 200
+  },
+  "222": {
+    "en_name": "Corsola",
+    "base_atk": 118,
+    "base_def": 156,
+    "base_sta": 110
+  },
+  "223": {
+    "en_name": "Remoraid",
+    "base_atk": 127,
+    "base_def": 69,
+    "base_sta": 70
+  },
+  "224": {
+    "en_name": "Octillery",
+    "base_atk": 197,
+    "base_def": 141,
+    "base_sta": 150
+  },
+  "225": {
+    "en_name": "Delibird",
+    "base_atk": 128,
+    "base_def": 90,
+    "base_sta": 90
+  },
+  "226": {
+    "en_name": "Mantine",
+    "base_atk": 148,
+    "base_def": 260,
+    "base_sta": 130
+  },
+  "227": {
+    "en_name": "Skarmory",
+    "base_atk": 148,
+    "base_def": 260,
+    "base_sta": 130
+  },
+  "228": {
+    "en_name": "Houndour",
+    "base_atk": 152,
+    "base_def": 93,
+    "base_sta": 90
+  },
+  "229": {
+    "en_name": "Houndoom",
+    "base_atk": 224,
+    "base_def": 159,
+    "base_sta": 150
+  },
+  "230": {
+    "en_name": "Kingdra",
+    "base_atk": 194,
+    "base_def": 194,
+    "base_sta": 150
+  },
+  "231": {
+    "en_name": "Phanpy",
+    "base_atk": 107,
+    "base_def": 107,
+    "base_sta": 180
+  },
+  "232": {
+    "en_name": "Donphan",
+    "base_atk": 214,
+    "base_def": 214,
+    "base_sta": 180
+  },
+  "233": {
+    "en_name": "Porygon2",
+    "base_atk": 198,
+    "base_def": 183,
+    "base_sta": 170
+  },
+  "234": {
+    "en_name": "Stantler",
+    "base_atk": 192,
+    "base_def": 132,
+    "base_sta": 146
+  },
+  "235": {
+    "en_name": "Smeargle",
+    "base_atk": 40,
+    "base_def": 88,
+    "base_sta": 110
+  },
+  "236": {
+    "en_name": "Tyrogue",
+    "base_atk": 64,
+    "base_def": 64,
+    "base_sta": 70
+  },
+  "237": {
+    "en_name": "Hitmontop",
+    "base_atk": 173,
+    "base_def": 214,
+    "base_sta": 100
+  },
+  "238": {
+    "en_name": "Smoochum",
+    "base_atk": 153,
+    "base_def": 116,
+    "base_sta": 90
+  },
+  "239": {
+    "en_name": "Elekid",
+    "base_atk": 135,
+    "base_def": 110,
+    "base_sta": 90
+  },
+  "240": {
+    "en_name": "Magby",
+    "base_atk": 151,
+    "base_def": 108,
+    "base_sta": 90
+  },
+  "241": {
+    "en_name": "Miltank",
+    "base_atk": 157,
+    "base_def": 211,
+    "base_sta": 190
+  },
+  "242": {
+    "en_name": "Blissey",
+    "base_atk": 129,
+    "base_def": 229,
+    "base_sta": 510
+  },
+  "243": {
+    "en_name": "Raikou",
+    "base_atk": 241,
+    "base_def": 210,
+    "base_sta": 180
+  },
+  "244": {
+    "en_name": "Entei",
+    "base_atk": 235,
+    "base_def": 176,
+    "base_sta": 230
+  },
+  "245": {
+    "en_name": "Suicune",
+    "base_atk": 180,
+    "base_def": 235,
+    "base_sta": 200
+  },
+  "246": {
+    "en_name": "Larvitar",
+    "base_atk": 115,
+    "base_def": 93,
+    "base_sta": 100
+  },
+  "247": {
+    "en_name": "Pupitar",
+    "base_atk": 155,
+    "base_def": 133,
+    "base_sta": 140
+  },
+  "248": {
+    "en_name": "Tyranitar",
+    "base_atk": 251,
+    "base_def": 212,
+    "base_sta": 200
+  },
+  "249": {
+    "en_name": "Lugia",
+    "base_atk": 193,
+    "base_def": 323,
+    "base_sta": 212
+  },
+  "250": {
+    "en_name": "Ho-Oh",
+    "base_atk": 263,
+    "base_def": 301,
+    "base_sta": 212
+  },
+  "251": {
+    "en_name": "Celebi",
+    "base_atk": 210,
+    "base_def": 210,
+    "base_sta": 200
+  },
+  "252": {
+    "en_name": "Treecko",
+    "base_atk": 124,
+    "base_def": 104,
+    "base_sta": 80
+  },
+  "253": {
+    "en_name": "Grovyle",
+    "base_atk": 172,
+    "base_def": 130,
+    "base_sta": 100
+  },
+  "254": {
+    "en_name": "Sceptile",
+    "base_atk": 223,
+    "base_def": 180,
+    "base_sta": 140
+  },
+  "255": {
+    "en_name": "Torchic",
+    "base_atk": 130,
+    "base_def": 92,
+    "base_sta": 90
+  },
+  "256": {
+    "en_name": "Combusken",
+    "base_atk": 163,
+    "base_def": 115,
+    "base_sta": 120
+  },
+  "257": {
+    "en_name": "Blaziken",
+    "base_atk": 329,
+    "base_def": 168,
+    "base_sta": 160
+  },
+  "258": {
+    "en_name": "Mudkip",
+    "base_atk": 126,
+    "base_def": 93,
+    "base_sta": 100
+  },
+  "259": {
+    "en_name": "Marshtomp",
+    "base_atk": 156,
+    "base_def": 133,
+    "base_sta": 140
+  },
+  "260": {
+    "en_name": "Swampert",
+    "base_atk": 283,
+    "base_def": 218,
+    "base_sta": 200
+  },
+  "261": {
+    "en_name": "Poochyena",
+    "base_atk": 96,
+    "base_def": 63,
+    "base_sta": 70
+  },
+  "262": {
+    "en_name": "Mightyena",
+    "base_atk": 171,
+    "base_def": 137,
+    "base_sta": 140
+  },
+  "263": {
+    "en_name": "Zigzagoon",
+    "base_atk": 58,
+    "base_def": 80,
+    "base_sta": 76
+  },
+  "264": {
+    "en_name": "Linoone",
+    "base_atk": 142,
+    "base_def": 128,
+    "base_sta": 156
+  },
+  "265": {
+    "en_name": "Wurmple",
+    "base_atk": 75,
+    "base_def": 61,
+    "base_sta": 90
+  },
+  "266": {
+    "en_name": "Silcoon",
+    "base_atk": 60,
+    "base_def": 91,
+    "base_sta": 100
+  },
+  "267": {
+    "en_name": "Beautifly",
+    "base_atk": 189,
+    "base_def": 98,
+    "base_sta": 120
+  },
+  "268": {
+    "en_name": "Cascoon",
+    "base_atk": 60,
+    "base_def": 91,
+    "base_sta": 100
+  },
+  "269": {
+    "en_name": "Dustox",
+    "base_atk": 98,
+    "base_def": 172,
+    "base_sta": 120
+  },
+  "270": {
+    "en_name": "Lotad",
+    "base_atk": 71,
+    "base_def": 86,
+    "base_sta": 80
+  },
+  "271": {
+    "en_name": "Lombre",
+    "base_atk": 112,
+    "base_def": 128,
+    "base_sta": 120
+  },
+  "272": {
+    "en_name": "Ludicolo",
+    "base_atk": 173,
+    "base_def": 191,
+    "base_sta": 160
+  },
+  "273": {
+    "en_name": "Seedot",
+    "base_atk": 71,
+    "base_def": 86,
+    "base_sta": 80
+  },
+  "274": {
+    "en_name": "Nuzleaf",
+    "base_atk": 134,
+    "base_def": 78,
+    "base_sta": 140
+  },
+  "275": {
+    "en_name": "Shiftry",
+    "base_atk": 200,
+    "base_def": 121,
+    "base_sta": 180
+  },
+  "276": {
+    "en_name": "Taillow",
+    "base_atk": 106,
+    "base_def": 61,
+    "base_sta": 80
+  },
+  "277": {
+    "en_name": "Swellow",
+    "base_atk": 185,
+    "base_def": 130,
+    "base_sta": 120
+  },
+  "278": {
+    "en_name": "Wingull",
+    "base_atk": 106,
+    "base_def": 61,
+    "base_sta": 80
+  },
+  "279": {
+    "en_name": "Pelipper",
+    "base_atk": 175,
+    "base_def": 189,
+    "base_sta": 120
+  },
+  "280": {
+    "en_name": "Ralts",
+    "base_atk": 79,
+    "base_def": 63,
+    "base_sta": 56
+  },
+  "281": {
+    "en_name": "Kirlia",
+    "base_atk": 117,
+    "base_def": 100,
+    "base_sta": 76
+  },
+  "282": {
+    "en_name": "Gardevoir",
+    "base_atk": 326,
+    "base_def": 266,
+    "base_sta": 136
+  },
+  "283": {
+    "en_name": "Surskit",
+    "base_atk": 93,
+    "base_def": 97,
+    "base_sta": 80
+  },
+  "284": {
+    "en_name": "Masquerain",
+    "base_atk": 192,
+    "base_def": 161,
+    "base_sta": 140
+  },
+  "285": {
+    "en_name": "Shroomish",
+    "base_atk": 74,
+    "base_def": 110,
+    "base_sta": 120
+  },
+  "286": {
+    "en_name": "Breloom",
+    "base_atk": 241,
+    "base_def": 153,
+    "base_sta": 120
+  },
+  "287": {
+    "en_name": "Slakoth",
+    "base_atk": 104,
+    "base_def": 104,
+    "base_sta": 120
+  },
+  "288": {
+    "en_name": "Vigoroth",
+    "base_atk": 159,
+    "base_def": 159,
+    "base_sta": 160
+  },
+  "289": {
+    "en_name": "Slaking",
+    "base_atk": 319,
+    "base_def": 201,
+    "base_sta": 300
+  },
+  "290": {
+    "en_name": "Nincada",
+    "base_atk": 80,
+    "base_def": 153,
+    "base_sta": 62
+  },
+  "291": {
+    "en_name": "Ninjask",
+    "base_atk": 199,
+    "base_def": 116,
+    "base_sta": 122
+  },
+  "292": {
+    "en_name": "Shedinja",
+    "base_atk": 153,
+    "base_def": 80,
+    "base_sta": 2
+  },
+  "293": {
+    "en_name": "Whismur",
+    "base_atk": 92,
+    "base_def": 42,
+    "base_sta": 128
+  },
+  "294": {
+    "en_name": "Loudred",
+    "base_atk": 134,
+    "base_def": 81,
+    "base_sta": 168
+  },
+  "295": {
+    "en_name": "Exploud",
+    "base_atk": 179,
+    "base_def": 142,
+    "base_sta": 208
+  },
+  "296": {
+    "en_name": "Makuhita",
+    "base_atk": 99,
+    "base_def": 54,
+    "base_sta": 144
+  },
+  "297": {
+    "en_name": "Hariyama",
+    "base_atk": 209,
+    "base_def": 114,
+    "base_sta": 288
+  },
+  "298": {
+    "en_name": "Azurill",
+    "base_atk": 36,
+    "base_def": 71,
+    "base_sta": 100
+  },
+  "299": {
+    "en_name": "Nosepass",
+    "base_atk": 82,
+    "base_def": 236,
+    "base_sta": 60
+  },
+  "300": {
+    "en_name": "Skitty",
+    "base_atk": 84,
+    "base_def": 84,
+    "base_sta": 100
+  },
+  "301": {
+    "en_name": "Delcatty",
+    "base_atk": 132,
+    "base_def": 132,
+    "base_sta": 140
+  },
+  "302": {
+    "en_name": "Sableye",
+    "base_atk": 151,
+    "base_def": 221,
+    "base_sta": 100
+  },
+  "303": {
+    "en_name": "Mawile",
+    "base_atk": 188,
+    "base_def": 231,
+    "base_sta": 100
+  },
+  "304": {
+    "en_name": "Aron",
+    "base_atk": 121,
+    "base_def": 168,
+    "base_sta": 100
+  },
+  "305": {
+    "en_name": "Lairon",
+    "base_atk": 158,
+    "base_def": 240,
+    "base_sta": 120
+  },
+  "306": {
+    "en_name": "Aggron",
+    "base_atk": 247,
+    "base_def": 402,
+    "base_sta": 140
+  },
+  "307": {
+    "en_name": "Meditite",
+    "base_atk": 78,
+    "base_def": 107,
+    "base_sta": 60
+  },
+  "308": {
+    "en_name": "Medicham",
+    "base_atk": 205,
+    "base_def": 179,
+    "base_sta": 120
+  },
+  "309": {
+    "en_name": "Electrike",
+    "base_atk": 123,
+    "base_def": 78,
+    "base_sta": 80
+  },
+  "310": {
+    "en_name": "Manectric",
+    "base_atk": 286,
+    "base_def": 179,
+    "base_sta": 140
+  },
+  "311": {
+    "en_name": "Plusle",
+    "base_atk": 167,
+    "base_def": 147,
+    "base_sta": 120
+  },
+  "312": {
+    "en_name": "Minun",
+    "base_atk": 147,
+    "base_def": 167,
+    "base_sta": 120
+  },
+  "313": {
+    "en_name": "Volbeat",
+    "base_atk": 143,
+    "base_def": 171,
+    "base_sta": 130
+  },
+  "314": {
+    "en_name": "Illumise",
+    "base_atk": 143,
+    "base_def": 171,
+    "base_sta": 130
+  },
+  "315": {
+    "en_name": "Roselia",
+    "base_atk": 186,
+    "base_def": 148,
+    "base_sta": 100
+  },
+  "316": {
+    "en_name": "Gulpin",
+    "base_atk": 80,
+    "base_def": 99,
+    "base_sta": 140
+  },
+  "317": {
+    "en_name": "Swalot",
+    "base_atk": 140,
+    "base_def": 159,
+    "base_sta": 200
+  },
+  "318": {
+    "en_name": "Carvanha",
+    "base_atk": 171,
+    "base_def": 39,
+    "base_sta": 90
+  },
+  "319": {
+    "en_name": "Sharpedo",
+    "base_atk": 289,
+    "base_def": 147,
+    "base_sta": 140
+  },
+  "320": {
+    "en_name": "Wailmer",
+    "base_atk": 136,
+    "base_def": 68,
+    "base_sta": 260
+  },
+  "321": {
+    "en_name": "Wailord",
+    "base_atk": 175,
+    "base_def": 87,
+    "base_sta": 340
+  },
+  "322": {
+    "en_name": "Numel",
+    "base_atk": 119,
+    "base_def": 82,
+    "base_sta": 120
+  },
+  "323": {
+    "en_name": "Camerupt",
+    "base_atk": 253,
+    "base_def": 186,
+    "base_sta": 140
+  },
+  "324": {
+    "en_name": "Torkoal",
+    "base_atk": 151,
+    "base_def": 234,
+    "base_sta": 140
+  },
+  "325": {
+    "en_name": "Spoink",
+    "base_atk": 125,
+    "base_def": 145,
+    "base_sta": 120
+  },
+  "326": {
+    "en_name": "Grumpig",
+    "base_atk": 171,
+    "base_def": 211,
+    "base_sta": 160
+  },
+  "327": {
+    "en_name": "Spinda",
+    "base_atk": 116,
+    "base_def": 116,
+    "base_sta": 120
+  },
+  "328": {
+    "en_name": "Trapinch",
+    "base_atk": 162,
+    "base_def": 78,
+    "base_sta": 90
+  },
+  "329": {
+    "en_name": "Vibrava",
+    "base_atk": 134,
+    "base_def": 99,
+    "base_sta": 100
+  },
+  "330": {
+    "en_name": "Flygon",
+    "base_atk": 205,
+    "base_def": 168,
+    "base_sta": 160
+  },
+  "331": {
+    "en_name": "Cacnea",
+    "base_atk": 156,
+    "base_def": 74,
+    "base_sta": 100
+  },
+  "332": {
+    "en_name": "Cacturne",
+    "base_atk": 221,
+    "base_def": 115,
+    "base_sta": 140
+  },
+  "333": {
+    "en_name": "Swablu",
+    "base_atk": 76,
+    "base_def": 139,
+    "base_sta": 90
+  },
+  "334": {
+    "en_name": "Altaria",
+    "base_atk": 222,
+    "base_def": 221,
+    "base_sta": 150
+  },
+  "335": {
+    "en_name": "Zangoose",
+    "base_atk": 222,
+    "base_def": 124,
+    "base_sta": 146
+  },
+  "336": {
+    "en_name": "Seviper",
+    "base_atk": 196,
+    "base_def": 118,
+    "base_sta": 146
+  },
+  "337": {
+    "en_name": "Lunatone",
+    "base_atk": 178,
+    "base_def": 163,
+    "base_sta": 180
+  },
+  "338": {
+    "en_name": "Solrock",
+    "base_atk": 178,
+    "base_def": 163,
+    "base_sta": 180
+  },
+  "339": {
+    "en_name": "Barboach",
+    "base_atk": 93,
+    "base_def": 83,
+    "base_sta": 100
+  },
+  "340": {
+    "en_name": "Whiscash",
+    "base_atk": 151,
+    "base_def": 142,
+    "base_sta": 220
+  },
+  "341": {
+    "en_name": "Corphish",
+    "base_atk": 141,
+    "base_def": 113,
+    "base_sta": 86
+  },
+  "342": {
+    "en_name": "Crawdaunt",
+    "base_atk": 224,
+    "base_def": 156,
+    "base_sta": 126
+  },
+  "343": {
+    "en_name": "Baltoy",
+    "base_atk": 77,
+    "base_def": 131,
+    "base_sta": 80
+  },
+  "344": {
+    "en_name": "Claydol",
+    "base_atk": 140,
+    "base_def": 236,
+    "base_sta": 120
+  },
+  "345": {
+    "en_name": "Lileep",
+    "base_atk": 105,
+    "base_def": 154,
+    "base_sta": 132
+  },
+  "346": {
+    "en_name": "Cradily",
+    "base_atk": 152,
+    "base_def": 198,
+    "base_sta": 172
+  },
+  "347": {
+    "en_name": "Anorith",
+    "base_atk": 176,
+    "base_def": 100,
+    "base_sta": 90
+  },
+  "348": {
+    "en_name": "Armaldo",
+    "base_atk": 222,
+    "base_def": 183,
+    "base_sta": 150
+  },
+  "349": {
+    "en_name": "Feebas",
+    "base_atk": 29,
+    "base_def": 102,
+    "base_sta": 40
+  },
+  "350": {
+    "en_name": "Milotic",
+    "base_atk": 192,
+    "base_def": 242,
+    "base_sta": 190
+  },
+  "351": {
+    "en_name": "Castform",
+    "base_atk": 139,
+    "base_def": 139,
+    "base_sta": 140
+  },
+  "352": {
+    "en_name": "Kecleon",
+    "base_atk": 161,
+    "base_def": 212,
+    "base_sta": 120
+  },
+  "353": {
+    "en_name": "Shuppet",
+    "base_atk": 138,
+    "base_def": 66,
+    "base_sta": 88
+  },
+  "354": {
+    "en_name": "Banette",
+    "base_atk": 312,
+    "base_def": 164,
+    "base_sta": 128
+  },
+  "355": {
+    "en_name": "Duskull",
+    "base_atk": 70,
+    "base_def": 162,
+    "base_sta": 40
+  },
+  "356": {
+    "en_name": "Dusclops",
+    "base_atk": 124,
+    "base_def": 234,
+    "base_sta": 80
+  },
+  "357": {
+    "en_name": "Tropius",
+    "base_atk": 136,
+    "base_def": 165,
+    "base_sta": 198
+  },
+  "358": {
+    "en_name": "Chimecho",
+    "base_atk": 175,
+    "base_def": 174,
+    "base_sta": 150
+  },
+  "359": {
+    "en_name": "Absol",
+    "base_atk": 314,
+    "base_def": 130,
+    "base_sta": 130
+  },
+  "360": {
+    "en_name": "Wynaut",
+    "base_atk": 41,
+    "base_def": 86,
+    "base_sta": 190
+  },
+  "361": {
+    "en_name": "Snorunt",
+    "base_atk": 95,
+    "base_def": 95,
+    "base_sta": 100
+  },
+  "362": {
+    "en_name": "Glalie",
+    "base_atk": 252,
+    "base_def": 168,
+    "base_sta": 160
+  },
+  "363": {
+    "en_name": "Spheal",
+    "base_atk": 95,
+    "base_def": 90,
+    "base_sta": 140
+  },
+  "364": {
+    "en_name": "Sealeo",
+    "base_atk": 137,
+    "base_def": 132,
+    "base_sta": 180
+  },
+  "365": {
+    "en_name": "Walrein",
+    "base_atk": 182,
+    "base_def": 176,
+    "base_sta": 220
+  },
+  "366": {
+    "en_name": "Clamperl",
+    "base_atk": 133,
+    "base_def": 149,
+    "base_sta": 70
+  },
+  "367": {
+    "en_name": "Huntail",
+    "base_atk": 197,
+    "base_def": 194,
+    "base_sta": 110
+  },
+  "368": {
+    "en_name": "Gorebyss",
+    "base_atk": 211,
+    "base_def": 194,
+    "base_sta": 110
+  },
+  "369": {
+    "en_name": "Relicanth",
+    "base_atk": 162,
+    "base_def": 234,
+    "base_sta": 200
+  },
+  "370": {
+    "en_name": "Luvdisc",
+    "base_atk": 81,
+    "base_def": 134,
+    "base_sta": 86
+  },
+  "371": {
+    "en_name": "Bagon",
+    "base_atk": 134,
+    "base_def": 107,
+    "base_sta": 90
+  },
+  "372": {
+    "en_name": "Shelgon",
+    "base_atk": 172,
+    "base_def": 179,
+    "base_sta": 130
+  },
+  "373": {
+    "en_name": "Salamence",
+    "base_atk": 277,
+    "base_def": 168,
+    "base_sta": 190
+  },
+  "374": {
+    "en_name": "Beldum",
+    "base_atk": 96,
+    "base_def": 141,
+    "base_sta": 80
+  },
+  "375": {
+    "en_name": "Metang",
+    "base_atk": 138,
+    "base_def": 185,
+    "base_sta": 120
+  },
+  "376": {
+    "en_name": "Metagross",
+    "base_atk": 300,
+    "base_def": 310,
+    "base_sta": 160
+  },
+  "377": {
+    "en_name": "Regirock",
+    "base_atk": 179,
+    "base_def": 356,
+    "base_sta": 160
+  },
+  "378": {
+    "en_name": "Regice",
+    "base_atk": 179,
+    "base_def": 356,
+    "base_sta": 160
+  },
+  "379": {
+    "en_name": "Registeel",
+    "base_atk": 143,
+    "base_def": 285,
+    "base_sta": 160
+  },
+  "380": {
+    "en_name": "Latias",
+    "base_atk": 289,
+    "base_def": 314,
+    "base_sta": 160
+  },
+  "381": {
+    "en_name": "Latios",
+    "base_atk": 335,
+    "base_def": 251,
+    "base_sta": 160
+  },
+  "382": {
+    "en_name": "Kyogre",
+    "base_atk": 364,
+    "base_def": 312,
+    "base_sta": 200
+  },
+  "383": {
+    "en_name": "Groudon",
+    "base_atk": 364,
+    "base_def": 312,
+    "base_sta": 200
+  },
+  "384": {
+    "en_name": "Rayquaza",
+    "base_atk": 389,
+    "base_def": 216,
+    "base_sta": 210
+  },
+  "385": {
+    "en_name": "Jirachi",
+    "base_atk": 210,
+    "base_def": 210,
+    "base_sta": 200
+  }
+}
