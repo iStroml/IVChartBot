@@ -87,17 +87,50 @@ class ServerMembers:
         else:
             return resultstring[:-1]
 
-    @commands.command(brief='Generates a searchquery for the pokebox.',
-                      description='(Pokemonname Attack Defense Stamina)')
+    def calcmaxdict(self, pokemon):
+        currentpkm = ChartBot.find_pkm(pokemon)
+        result = {}
+        for attack in range(13, 16):
+            for defense in range(13, 16):
+                for stamina in range(13, 16):
+                    currentcpchart = ChartBot.compute_cp(currentpkm["base_atk"], currentpkm["base_def"],
+                                                         currentpkm["base_sta"], attack, defense, stamina)
+                    for key in currentcpchart:
+                        if currentcpchart[key] == 40:
+                            iv = round((attack + defense + stamina) / 45 * 100)
+                            result["(" + str(attack) + "," + str(defense) + "," + str(stamina) + ")"] = {"Max": key,"IV": str(iv) + "%"}
+        return result
+
+    @commands.command(brief='Generates a searchquery for the pokebox.', description='(Pokemonname Attack Defense Stamina)')
     async def wp(self, pokemon, argument_1=None, argument_2=None, argument_3=None):
         result = self.ivvalues(pokemon, argument_1, argument_2, argument_3)
         await self.bot.say(result)
 
-    @commands.command(brief='Generates a searchquery for the pokebox.',
-                      description='(Pokemonname Attack Defense Stamina)')
+    @commands.command(brief='Generates a searchquery for the pokebox.', description='(Pokemonname Attack Defense Stamina)')
     async def cp(self, pokemon, argument_1=None, argument_2=None, argument_3=None):
         result = self.ivvalues(pokemon, argument_1, argument_2, argument_3)
         await self.bot.say(result.replace("w", "c"))
+
+    @commands.command(brief='Generates a MaxCP table for some any pokemon', description='(Pokemonname)')
+    async def maxwp(self, pokemon):
+        maxdict = self.calcmaxdict(pokemon)
+        resultstr = "(ATK,DEF,KP)\tMaxWP\t\t%\n----------------------\n"
+        tmp_result = sorted(maxdict.items(), reverse=True)
+        for key in tmp_result:
+            key,value = key
+            resultstr = resultstr + key + "\t\t" + str(maxdict[key]["Max"]) + "WP \t"+str(maxdict[key]["IV"])+"\n"
+        await self.bot.say(resultstr)
+
+    @commands.command(brief='Generates a MaxCP table for some any pokemon', description='(Pokemonname)')
+    async def maxcp(self, pokemon):
+        maxdict = self.calcmaxdict(pokemon)
+        resultstr = "(ATK,DEF,STA)\tMaxCP\t\t%\n----------------------\n"
+        tmp_result = sorted(maxdict.items(), reverse=True)
+        for key in tmp_result:
+            key,value = key
+            resultstr = resultstr + key + "\t\t" + str(maxdict[key]["Max"]) + " CP\t"+str(maxdict[key]["IV"])+"\n"
+        await self.bot.say(resultstr)
+
 
 
 def setup(bot):

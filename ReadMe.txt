@@ -19,4 +19,7 @@ Usage
 * !cp or !wp Bulbasaur  (shows a searchstring for 15 15 15 Bulbasaurs)
 * !cp or !wp 1 15 15 15
 
+* !maxwp Pokemonname shows a table for the maxed out pokemon
+* !maxcp Pokemonname shows a table for the maxed out pokemon
+
 The bot will tolerate some spelling mistakes. So Bulbazaur will be corrected to Bulbasaur - just in case.
