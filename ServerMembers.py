@@ -87,7 +87,7 @@ class ServerMembers:
         else:
             return resultstring[:-1]
 
-    def calcmaxdict(self, pokemon):
+    def calcmaxdict(self, pokemon,level):
         currentpkm = ChartBot.find_pkm(pokemon)
         result = {}
         for attack in range(13, 16):
@@ -96,7 +96,7 @@ class ServerMembers:
                     currentcpchart = ChartBot.compute_cp(currentpkm["base_atk"], currentpkm["base_def"],
                                                          currentpkm["base_sta"], attack, defense, stamina)
                     for key in currentcpchart:
-                        if currentcpchart[key] == 40:
+                        if currentcpchart[key] == level:
                             iv = round((attack + defense + stamina) / 45 * 100)
                             result["(" + str(attack) + "," + str(defense) + "," + str(stamina) + ")"] = {"Max": key,"IV": str(iv) + "%"}
         return result
@@ -113,7 +113,7 @@ class ServerMembers:
 
     @commands.command(brief='Generates a MaxCP table for some any pokemon', description='(Pokemonname)')
     async def maxwp(self, pokemon):
-        maxdict = self.calcmaxdict(pokemon)
+        maxdict = self.calcmaxdict(pokemon,40)
         resultstr = "(ATK,DEF,KP)\tMaxWP\t\t%\n----------------------\n"
         tmp_result = sorted(maxdict.items(), reverse=True)
         for key in tmp_result:
@@ -121,9 +121,10 @@ class ServerMembers:
             resultstr = resultstr + key + "\t\t" + str(maxdict[key]["Max"]) + "WP \t"+str(maxdict[key]["IV"])+"\n"
         await self.bot.say(resultstr)
 
+
     @commands.command(brief='Generates a MaxCP table for some any pokemon', description='(Pokemonname)')
     async def maxcp(self, pokemon):
-        maxdict = self.calcmaxdict(pokemon)
+        maxdict = self.calcmaxdict(pokemon,40)
         resultstr = "(ATK,DEF,STA)\tMaxCP\t\t%\n----------------------\n"
         tmp_result = sorted(maxdict.items(), reverse=True)
         for key in tmp_result:
@@ -131,7 +132,45 @@ class ServerMembers:
             resultstr = resultstr + key + "\t\t" + str(maxdict[key]["Max"]) + " CP\t"+str(maxdict[key]["IV"])+"\n"
         await self.bot.say(resultstr)
 
+    @commands.command(brief='Generates a Catch level 20 CP table for some any pokemon', description='(Pokemonname)')
+    async def catchwp(self, pokemon):
+        maxdict = self.calcmaxdict(pokemon, 20)
+        resultstr = "(ATK,DEF,KP)\tLvL20WP\t\t%\n----------------------\n"
+        tmp_result = sorted(maxdict.items(), reverse=True)
+        for key in tmp_result:
+            key, value = key
+            resultstr = resultstr + key + "\t\t" + str(maxdict[key]["Max"]) + "WP \t" + str(maxdict[key]["IV"]) + "\n"
+        await self.bot.say(resultstr)
 
+    @commands.command(brief='Generates a Catch lvl 20 CP table for some any pokemon', description='(Pokemonname)')
+    async def catchcp(self, pokemon):
+        maxdict = self.calcmaxdict(pokemon, 20)
+        resultstr = "(ATK,DEF,STA)\tLvL20CP\t\t%\n----------------------\n"
+        tmp_result = sorted(maxdict.items(), reverse=True)
+        for key in tmp_result:
+            key, value = key
+            resultstr = resultstr + key + "\t\t" + str(maxdict[key]["Max"]) + " CP\t" + str(maxdict[key]["IV"]) + "\n"
+        await self.bot.say(resultstr)
+
+    @commands.command(brief='Generates a Catch lvl 25 table for some any pokemon', description='(Pokemonname)')
+    async def weathercatchwp(self, pokemon):
+        maxdict = self.calcmaxdict(pokemon, 25)
+        resultstr = "(ATK,DEF,KP)\tLvL20WP\t\t%\n----------------------\n"
+        tmp_result = sorted(maxdict.items(), reverse=True)
+        for key in tmp_result:
+            key, value = key
+            resultstr = resultstr + key + "\t\t" + str(maxdict[key]["Max"]) + "WP \t" + str(maxdict[key]["IV"]) + "\n"
+        await self.bot.say(resultstr)
+
+    @commands.command(brief='Generates a Catch lvl 25 table for some any pokemon', description='(Pokemonname)')
+    async def weathercatchcp(self, pokemon):
+        maxdict = self.calcmaxdict(pokemon, 25)
+        resultstr = "(ATK,DEF,STA)\tLvL20CP\t\t%\n----------------------\n"
+        tmp_result = sorted(maxdict.items(), reverse=True)
+        for key in tmp_result:
+            key, value = key
+            resultstr = resultstr + key + "\t\t" + str(maxdict[key]["Max"]) + " CP\t" + str(maxdict[key]["IV"]) + "\n"
+        await self.bot.say(resultstr)
 
 def setup(bot):
     bot.add_cog(ServerMembers(bot))
