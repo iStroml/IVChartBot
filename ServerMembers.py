@@ -104,12 +104,21 @@ class ServerMembers:
     @commands.command(brief='Generates a searchquery for the pokebox.', description='(Pokemonname Attack Defense Stamina)')
     async def wp(self, pokemon, argument_1=None, argument_2=None, argument_3=None):
         result = self.ivvalues(pokemon, argument_1, argument_2, argument_3)
-        await self.bot.say(result)
+        if len(result) > 2000:
+            await self.bot.say(result[:1999])
+            await self.bot.say(result[1999:])
+        else:
+            await self.bot.say(result)
 
     @commands.command(brief='Generates a searchquery for the pokebox.', description='(Pokemonname Attack Defense Stamina)')
     async def cp(self, pokemon, argument_1=None, argument_2=None, argument_3=None):
         result = self.ivvalues(pokemon, argument_1, argument_2, argument_3)
-        await self.bot.say(result.replace("w", "c"))
+        result = result.replace("w", "c")
+        if len(result) > 2000:
+            await self.bot.say(result[:1999])
+            await self.bot.say(result[1999:])
+        else:
+            await self.bot.say(result.replace("w", "c"))
 
     @commands.command(brief='Generates a MaxCP table for some any pokemon', description='(Pokemonname)')
     async def maxwp(self, pokemon):
