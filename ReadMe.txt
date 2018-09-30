@@ -26,6 +26,6 @@ Usage
 * !catchwp Pokemonname shows a table for a lvl 20 (raid) pokemon
 
 * !weathercatchcp Pokemonname shows a table for a lvl 25 (raid) pokemon
-* !weathercatchxp Pokemonname shows a table for a lvl 25 (raid) pokemon
+* !weathercatchwp Pokemonname shows a table for a lvl 25 (raid) pokemon
 
 The bot will tolerate some spelling mistakes. So Bulbazaur will be corrected to Bulbasaur - just in case.
