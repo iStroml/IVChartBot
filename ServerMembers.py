@@ -9,7 +9,6 @@ class ServerMembers:
 
     def ivvalues(self, pokemon, argument_1=None, argument_2=None, argument_3=None):
         ivcombinations = []
-        resultstring = ""
         currentpkm = ChartBot.find_pkm(pokemon)
         if currentpkm != {}:
             # Parsing empty arguments
@@ -64,9 +63,9 @@ class ServerMembers:
             cpchart = {}
             for triple in ivcombinations:
                 pokemon_atk, pokemon_def, pokemon_sta = triple
-                currentcpchart = ChartBot.compute_cp(currentpkm["base_atk"],
-                                                     currentpkm["base_def"],
-                                                     currentpkm["base_sta"],
+                currentcpchart = ChartBot.compute_cp(currentpkm["ATK"],
+                                                     currentpkm["DEF"],
+                                                     currentpkm["STA"],
                                                      pokemon_atk, pokemon_def, pokemon_sta)
                 for key in currentcpchart:
                     cpchart[key] = currentcpchart[key]
@@ -93,8 +92,8 @@ class ServerMembers:
         for attack in range(13, 16):
             for defense in range(13, 16):
                 for stamina in range(13, 16):
-                    currentcpchart = ChartBot.compute_cp(currentpkm["base_atk"], currentpkm["base_def"],
-                                                         currentpkm["base_sta"], attack, defense, stamina)
+                    currentcpchart = ChartBot.compute_cp(currentpkm["ATK"], currentpkm["DEF"],
+                                                         currentpkm["STA"], attack, defense, stamina)
                     for key in currentcpchart:
                         if currentcpchart[key] == level:
                             iv = round((attack + defense + stamina) / 45 * 100)
