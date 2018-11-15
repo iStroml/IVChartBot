@@ -88,9 +88,9 @@ def compute_cp(base_atk, base_def, base_sta,iv_atk,iv_def, iv_sta):
 
     for lvl in range(1, 41):
         m = cp_multiplier[lvl - 1]
-        attack = (base_atk + iv_atk) * m
-        defense = (base_def + iv_def) * m
-        stamina = (base_sta + iv_sta) * m
+        attack = (int(base_atk) + int(iv_atk)) * m
+        defense = (int(base_def) + int(iv_def)) * m
+        stamina = (int(base_sta) + int(iv_sta)) * m
         cp = int(max(10, np.floor(np.sqrt(attack * attack * defense * stamina) / 10)))
         result[cp] = lvl
     return result
@@ -111,9 +111,9 @@ with open(databasefile_pokedb, 'r') as database:
 with open(databasefile_base_cp, 'r') as database:
     base_cp = json.load(database)
     for key in base_cp:
-        pokedict[str(key)]["base_atk"] = base_cp[key]["base_atk"]
-        pokedict[str(key)]["base_def"] = base_cp[key]["base_def"]
-        pokedict[str(key)]["base_sta"] = base_cp[key]["base_sta"]
+        pokedict[str(key)]["ATK"] = base_cp[key]["ATK"]
+        pokedict[str(key)]["DEF"] = base_cp[key]["DEF"]
+        pokedict[str(key)]["STA"] = base_cp[key]["STA"]
 
 
 if __name__ == "__main__":
@@ -124,5 +124,5 @@ if __name__ == "__main__":
             exc = '{}: {}'.format(type(e).__name__, e)
             print('Failed to load extension {}\n{}'.format(extension, exc))
 
-    bot.run("yourtokengoeshere")
+    bot.run("youtokengoeshere")
     bot.close()
