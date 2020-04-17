@@ -3,11 +3,11 @@ import ChartBot
 from discord.ext import commands
 
 
-class ServerMembers:
+class ServerMembers(commands.Cog):
     def __init__(self, bot):
         self.bot = bot
 
-    def ivvalues(self, pokemon, argument_1=None, argument_2=None, argument_3=None):
+    def ivvalues(self,  pokemon, argument_1=None, argument_2=None, argument_3=None):
         ivcombinations = []
         currentpkm = ChartBot.find_pkm(pokemon)
         if currentpkm != {}:
@@ -101,84 +101,84 @@ class ServerMembers:
         return result
 
     @commands.command(brief='Generates a searchquery for the pokebox.', description='(Pokemonname Attack Defense Stamina)')
-    async def wp(self, pokemon, argument_1=None, argument_2=None, argument_3=None):
+    async def wp(self, context, pokemon, argument_1=None, argument_2=None, argument_3=None):
         result = self.ivvalues(pokemon, argument_1, argument_2, argument_3)
         if len(result) > 2000:
-            await self.bot.say(result[:1999])
-            await self.bot.say(result[1999:])
+            await context.send(result[:1999])
+            await context.send(result[1999:])
         else:
-            await self.bot.say(result)
+            await context.send(result)
 
     @commands.command(brief='Generates a searchquery for the pokebox.', description='(Pokemonname Attack Defense Stamina)')
-    async def cp(self, pokemon, argument_1=None, argument_2=None, argument_3=None):
+    async def cp(self, context, pokemon, argument_1=None, argument_2=None, argument_3=None):
         result = self.ivvalues(pokemon, argument_1, argument_2, argument_3)
         result = result.replace("w", "c")
         if len(result) > 2000:
-            await self.bot.say(result[:1999])
-            await self.bot.say(result[1999:])
+            await context.send(result[:1999])
+            await context.send(result[1999:])
         else:
-            await self.bot.say(result.replace("w", "c"))
+            await context.send(result.replace("w", "c"))
 
     @commands.command(brief='Generates a MaxCP table for some any pokemon', description='(Pokemonname)')
-    async def maxwp(self, pokemon):
+    async def maxwp(self, context, pokemon):
         maxdict = self.calcmaxdict(pokemon,40)
         resultstr = "(ATK,DEF,KP)\tMaxWP\t\t%\n----------------------\n"
         tmp_result = sorted(maxdict.items(), reverse=True)
         for key in tmp_result:
             key,value = key
             resultstr = resultstr + key + "\t\t" + str(maxdict[key]["Max"]) + "WP \t"+str(maxdict[key]["IV"])+"\n"
-        await self.bot.say(resultstr)
+        await context.send(resultstr)
 
 
     @commands.command(brief='Generates a MaxCP table for some any pokemon', description='(Pokemonname)')
-    async def maxcp(self, pokemon):
+    async def maxcp(self, context, pokemon):
         maxdict = self.calcmaxdict(pokemon,40)
         resultstr = "(ATK,DEF,STA)\tMaxCP\t\t%\n----------------------\n"
         tmp_result = sorted(maxdict.items(), reverse=True)
         for key in tmp_result:
             key,value = key
             resultstr = resultstr + key + "\t\t" + str(maxdict[key]["Max"]) + " CP\t"+str(maxdict[key]["IV"])+"\n"
-        await self.bot.say(resultstr)
+        await context.send(resultstr)
 
     @commands.command(brief='Generates a Catch level 20 CP table for some any pokemon', description='(Pokemonname)')
-    async def catchwp(self, pokemon):
+    async def catchwp(self, context, pokemon):
         maxdict = self.calcmaxdict(pokemon, 20)
         resultstr = "(ATK,DEF,KP)\tLvL20WP\t\t%\n----------------------\n"
         tmp_result = sorted(maxdict.items(), reverse=True)
         for key in tmp_result:
             key, value = key
             resultstr = resultstr + key + "\t\t" + str(maxdict[key]["Max"]) + "WP \t" + str(maxdict[key]["IV"]) + "\n"
-        await self.bot.say(resultstr)
+        await context.send(resultstr)
 
     @commands.command(brief='Generates a Catch lvl 20 CP table for some any pokemon', description='(Pokemonname)')
-    async def catchcp(self, pokemon):
+    async def catchcp(self, context, pokemon):
         maxdict = self.calcmaxdict(pokemon, 20)
         resultstr = "(ATK,DEF,STA)\tLvL20CP\t\t%\n----------------------\n"
         tmp_result = sorted(maxdict.items(), reverse=True)
         for key in tmp_result:
             key, value = key
             resultstr = resultstr + key + "\t\t" + str(maxdict[key]["Max"]) + " CP\t" + str(maxdict[key]["IV"]) + "\n"
-        await self.bot.say(resultstr)
+        await context.send(resultstr)
 
     @commands.command(brief='Generates a Catch lvl 25 table for some any pokemon', description='(Pokemonname)')
-    async def weathercatchwp(self, pokemon):
+    async def weathercatchwp(self, context, pokemon):
         maxdict = self.calcmaxdict(pokemon, 25)
         resultstr = "(ATK,DEF,KP)\tLvL20WP\t\t%\n----------------------\n"
         tmp_result = sorted(maxdict.items(), reverse=True)
         for key in tmp_result:
             key, value = key
             resultstr = resultstr + key + "\t\t" + str(maxdict[key]["Max"]) + "WP \t" + str(maxdict[key]["IV"]) + "\n"
-        await self.bot.say(resultstr)
+        await context.send(resultstr)
 
     @commands.command(brief='Generates a Catch lvl 25 table for some any pokemon', description='(Pokemonname)')
-    async def weathercatchcp(self, pokemon):
+    async def weathercatchcp(self, context, pokemon):
         maxdict = self.calcmaxdict(pokemon, 25)
         resultstr = "(ATK,DEF,STA)\tLvL20CP\t\t%\n----------------------\n"
         tmp_result = sorted(maxdict.items(), reverse=True)
         for key in tmp_result:
             key, value = key
             resultstr = resultstr + key + "\t\t" + str(maxdict[key]["Max"]) + " CP\t" + str(maxdict[key]["IV"]) + "\n"
-        await self.bot.say(resultstr)
+        await context.send(resultstr)
 
 def setup(bot):
     bot.add_cog(ServerMembers(bot))

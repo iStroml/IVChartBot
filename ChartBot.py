@@ -100,8 +100,10 @@ def compute_cp(base_atk, base_def, base_sta,iv_atk,iv_def, iv_sta):
 @bot.event
 async def on_ready():
     print (bot.user.name + " connected")
-    print ("With the ID: " + bot.user.id)
-    await bot.change_presence(game=discord.Game(name="!help for help", type=0))
+    print ("With the ID: " + str(bot.user.id))
+    activity = discord.Game(name="!help for help", type=0)
+    await bot.change_presence(status=discord.Status.idle, activity=activity)
+    #await bot.change_presence(game=discord.Game(name="!help for help", type=0))
 
 #initialize_pokedict
 with open(databasefile_pokedb, 'r') as database:
@@ -124,5 +126,5 @@ if __name__ == "__main__":
             exc = '{}: {}'.format(type(e).__name__, e)
             print('Failed to load extension {}\n{}'.format(extension, exc))
 
-    bot.run("youtokengoeshere")
+    bot.run("yourtokengoeshere")
     bot.close()
